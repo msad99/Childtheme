@@ -1,0 +1,43 @@
+/*
+Theme Name: Curver Child Theme
+Theme URI: http://Errors.dk
+Description: Child theme made from curver
+Author: Phillip Stæhr
+Author URI: http://Errors.dk
+Template: curver
+Version: 1.0.0
+*/
+/* CSS Document */
+
+@import url("../curver/style.css");
+
+body{
+	background-color: black;
+	color: black;
+}
+.site-title{
+	font-style: italic;
+}
+#header-inner-inner-inner{
+	background-image: url("../../uploads/2019/03/dazaralor.jpg");
+	background-size: cover ;
+}
+#header-inner{
+	background: #21078E; 
+}
+
+#wrapper{
+	background-color: white;
+}
+#page .container-inner{
+	background-color: white;
+}
+#wowprogress .expansion_head img{
+	box-shadow: none;
+}
+.widget a{
+	color: black;
+}
+.widget > h3:after {
+	font-family: FontAwesome; color: black; font-size: 18px; font-weight: 400; text-align: center; float: right; 
+}
